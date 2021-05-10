@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Normal;
+}
+html{
+    position: relative;
+    min-height: 100%;
+}
+/* begin algemene classes */
+/* end algemene classes */
+/* begin navbar */
+.bg-light{
+    background-color: #F63854!important;
+    
+}
+.navbars{
+    position: fixed;
+    width: 100vw;
+}
+.nav-link {
+    color: #fff!important;
+    display: inline-block;
+    height: 1.6em;
+transition:  .05s ;
+margin: 0 25px;
+padding: 0;
+}
+
+.nav-link:hover {
+border-bottom: #fff 2.5px solid;
+}
+.top-nav{
+    padding: 10px 0;
+}
+.top-nav h2{
+    font-family: Bold;
+    font-size: 26px;
+}
+.top-nav a{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    right: 80px;
+}
+/* end navbar */
+/* begin footer */
+footer{
+background-color: #F63854;
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+
+}
+footer p, footer a, footer a:hover{
+    color: #fff;
+    text-decoration: none;
+    line-height: 12.5px;
+
+}
+footer h3{
+    font-family: Bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.top-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+width: 100vw;
+grid-gap: 10em;
+padding: 2.5em 0 1.5em;
+
+}
+.line{
+    width: 100vw;
+    border-bottom: 2px rgb(255, 255, 255, .5) solid;
+}
+.bottom-footer{
+    padding: 1.3em 0;
+}
+.bottom-footer p{
+margin: 0;
+}
+
+/* end footer */
