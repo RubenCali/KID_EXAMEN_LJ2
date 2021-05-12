@@ -2,12 +2,29 @@ body{
     margin: 0;
     padding: 0;
     font-family: Normal;
+    color: #0d0d0d;
+
 }
+
 html{
     position: relative;
     min-height: 100%;
+    overflow-x: hidden;
 }
+
 /* begin algemene classes */
+.title{
+    font-size: 25px;
+    font-family: Bold;
+    margin-top: 3.5vh;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.active{
+    border-bottom: #fff 2.5px solid;
+    transition: 2s ease;
+
+}
 /* end algemene classes */
 /* begin navbar */
 .bg-light{
@@ -16,6 +33,7 @@ html{
 }
 .navbars{
     position: fixed;
+    z-index: 100;
     width: 100vw;
 }
 .nav-link {
@@ -32,12 +50,18 @@ border-bottom: #fff 2.5px solid;
 }
 .top-nav{
     padding: 10px 0;
+    background: #fff;
 }
-.top-nav h2{
+.top-nav h2 a{
     font-family: Bold;
     font-size: 26px;
+    color: #0d0d0d;
+
 }
-.top-nav a{
+.top-nav h2 a:hover{
+    text-decoration: none;
+}
+.top-nav .cart{
     color: black;
     font-size: 20px;
     position: absolute;
@@ -51,7 +75,6 @@ background-color: #F63854;
 position: absolute;
 left: 0;
 bottom: 0;
-width: 100%;
 
 }
 footer p, footer a, footer a:hover{
@@ -86,3 +109,4 @@ margin: 0;
 }
 
 /* end footer */
+
