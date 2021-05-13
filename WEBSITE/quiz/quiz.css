@@ -19,6 +19,17 @@ html{
     margin-top: 3.5vh;
     margin-bottom: 20px;
     text-align: center;
+    text-transform: uppercase;
+
+}
+.huisstijl__rood{
+    color: #F63854;
+}
+.small{
+    font-size: xx-small;
+}
+.bold{
+    font-family: Bold;
 }
 .active{
     border-bottom: #fff 2.5px solid;
@@ -30,6 +41,14 @@ html{
 .bg-light{
     background-color: #F63854!important;
     
+}
+.cart__number{
+    position: absolute;
+    font-size: 13px;
+    top: -8px;
+    left: 20px;
+   
+
 }
 .navbars{
     position: fixed;
@@ -106,7 +125,87 @@ padding: 2.5em 0 1.5em;
 }
 .bottom-footer p{
 margin: 0;
+font-family: Bold;
+
 }
 
 /* end footer */
 
+/* begin quiz page */
+.CTA{
+    color: white;
+    background: #F63854;
+    border: 2px solid #F63854;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition:  .25s ease;
+    font-family: Bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.CTA:hover{
+    color: #0d0d0d;
+    background: #fff;
+    border: 2px solid #F63854;
+    text-decoration: none;
+}
+#quiz h2{
+    margin-bottom: 40px;
+}
+#quiz{
+    padding: 20vh;
+
+}
+.sub-titel{
+    font-size: 10px;
+    text-align: center;
+    margin-top: -17px;
+    margin-bottom: 5vh;
+}
+#quiztest{
+    padding: 20vh 0 60vh;
+}
+/* end quiz page */
+/* begin first quizpage */
+.quiztest__sneakers img{
+    height: 200px;
+    margin-bottom: 10vh;
+}
+.quiztest__sneakers{
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.quiztest__sneakers-arrows p a{
+    color: #0d0d0d;
+
+}
+.quiztest__sneakers-arrows{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 8vw;
+    margin: 0 auto;
+}
+.quiztest__sneakers-arrows p a i{
+    font-size: 30px;
+}
+/* end first quizpage */
+.resizeIMG2{
+    height: 222px!important;
+}
+.resizeIMG1{
+    transform: rotateY(180deg);
+}
+.resizeIMG3{
+    height: 230px!important;
+    margin-top: -10px;
+}
+.resizeIMG6{
+    transform: rotateY(180deg);
+}
+.resizeIMG8{
+    transform: rotateY(180deg);
+}

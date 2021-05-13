@@ -19,6 +19,17 @@ html{
     margin-top: 3.5vh;
     margin-bottom: 20px;
     text-align: center;
+    text-transform: uppercase;
+
+}
+.huisstijl__rood{
+    color: #F63854;
+}
+.small{
+    font-size: xx-small;
+}
+.bold{
+    font-family: Bold;
 }
 .active{
     border-bottom: #fff 2.5px solid;
@@ -27,6 +38,14 @@ html{
 }
 /* end algemene classes */
 /* begin navbar */
+.cart__number{
+    position: absolute;
+    font-size: 13px;
+    top: -8px;
+    left: 20px;
+   
+
+}
 .bg-light{
     background-color: #F63854!important;
     
@@ -106,7 +125,205 @@ padding: 2.5em 0 1.5em;
 }
 .bottom-footer p{
 margin: 0;
+font-family: Bold;
+
 }
 
 /* end footer */
 
+/* begin design page */
+#design{
+    padding: 20vh 0 55vh;
+}
+.design-grid{
+   display: flex;
+   justify-content: space-between;
+   max-width: 70vw;
+   margin: 10vh auto 0;
+
+}
+#design h2{
+    margin-bottom: 7vh;
+}
+.design-grid img{
+    height: 300px;
+}
+.design-grid a{
+    color: white;
+    background: #F63854;
+    border: 2px solid #F63854;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition:  .25s ease;
+    font-family: Bold;
+
+
+  
+}
+
+
+.design-grid a:hover{
+    color: #0d0d0d;
+    background: #fff;
+    border: 2px solid #F63854;
+    text-decoration: none;
+}
+.design__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70vw;
+    margin: 0 auto;
+}
+.design__flex img{
+    height: 300px;
+}
+.design__flex-info h4{
+font-size: 20px;
+text-align: center;
+}
+.design__flex-info-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+    margin-top: 1.5em;
+}
+.design__flex-info-grid a{
+    color: #fff;
+    text-decoration: none;
+    padding: 17.5px 20px;
+    background: #F63854;
+    border-radius: 50%;
+}
+.design__flex-info-grid a div p{
+margin: 0;
+}
+/* end design page */
+/* begin kleuren design */
+.design__flex-info-kleuren a{
+    color: #fff;
+    text-decoration: none;
+    padding: 29.65px;
+    border-radius: 50%;  
+    border: 1.5px solid #0d0d0d50;
+
+}
+.design__flex-info-kleuren h4{
+    font-size: 20px;
+text-align: center;
+}
+.kleur1{
+    background-color: #DAF7A6!important;
+}
+.kleur2{
+    background-color: #FFC300!important;
+}
+.kleur3{
+    background-color: #FF5733!important;
+}
+.kleur4{
+    background-color: #C70039!important;
+}
+.kleur5{
+    background-color: #900C3F!important;
+}
+.kleur6{
+    background-color: #581845!important;
+}
+.kleur7{
+    background-color: #FE4A49!important;
+}
+.kleur8{
+    background-color: #2AB7CA!important;
+}
+.kleur9{
+    background-color: #FED766!important;
+}
+.kleur10{
+    background-color: #E6E6EA!important;
+}
+.kleur11{
+    background-color: #F4F4F8!important;
+}
+.kleur12{
+    background-color: #E3E2DF!important;
+}
+
+ 
+/* end kleuren design */
+/* begin sneakers */
+.rotate{
+    transform: rotateY(180deg);
+}
+.design__flex-info-grid-sneakers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 2em 3em;
+}
+.design__flex-info-grid-sneakers img{
+    height: 100px;
+    width: 180px;
+}
+.design__flex-info{
+    margin-left: 13vw;
+}
+/* end sneakers */
+/* begin name */
+.no-name a{
+    color: white;
+    background: #F63854;
+    border: 2px solid #F63854;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition:  .25s ease;
+    font-family: Bold;
+    position: absolute;
+    bottom: 0;
+}
+.no-name a:hover{
+    color: #0d0d0d;
+    background: #fff;
+    border: 2px solid #F63854;
+    text-decoration: none;
+}
+button{
+    color: white;
+    background: #F63854;
+    border: 2px solid #F63854;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition:  .25s ease;
+    font-family: Bold;
+}
+button:hover{
+    color: #0d0d0d;
+    background: #fff;
+    border: 2px solid #F63854;
+    text-decoration: none;
+}
+
+.design__flex-input{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+  
+  
+
+}
+input{
+width: 100%;
+padding: 5px 10px;
+background: lightgrey;
+border: 1px solid #0d0d0d50;
+}
+label{
+    font-size: 20px;
+}
+form div{
+    margin-bottom: 20px;
+}
+.design__flex-input img{
+    height: 300px;
+}
+
+/* end name */

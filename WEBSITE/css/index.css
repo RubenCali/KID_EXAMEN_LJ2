@@ -19,6 +19,7 @@ html{
     margin-top: 3.5vh;
     margin-bottom: 20px;
     text-align: center;
+    text-transform: uppercase;
 }
 .huisstijl__rood{
     color: #F63854;
@@ -115,6 +116,7 @@ padding: 2.5em 0 1.5em;
 }
 .bottom-footer p{
 margin: 0;
+font-family: Bold;
 }
 
 /* end footer */
@@ -166,15 +168,15 @@ margin: 0;
 .driehoek-top{
     width: 0;
     height: 0;
-    border-bottom: 130vh solid #F63854;
-    border-left: 45vw solid transparent;
+    border-bottom: 142vh solid #F63854;
+    border-left: 55vw solid transparent;
     overflow-x: hidden;
 }
 .driehoek-bottom{
     width: 0;
     height: 0;
-    border-top: 30vh solid #F63854;
-    border-left: 95.65vh solid transparent;
+    border-top: 20vh solid #F63854;
+    border-left: 55vw solid transparent;
 
 }
 .driehoek{
@@ -185,6 +187,9 @@ margin: 0;
 }
 /* end driehoek */
 /* begin about */
+#about{
+    margin-top: 10vh;
+}
 .about-info p{
     text-align: center;
     width: 500px;
@@ -352,6 +357,14 @@ padding: 20px 0 20px 30px;
 position: relative;
 margin-bottom: 40px;
 }
+.cart__number{
+    position: absolute;
+    font-size: 13px;
+    top: -8px;
+    left: 20px;
+   
+
+}
 .cart__grid-bottom a{
     color: white;
     text-decoration: none;
@@ -459,5 +472,25 @@ width: 300px;
     border: 2px solid #F63854;
     text-decoration: none;
 }
+}
+@media screen and (min-width: 1550px){
+    .driehoek{
+        display: none;
+    }
+    .services__right-CTA{
+        color: white;
+        background: #F63854;
+        border: 2px solid #F63854;
+        padding: 9px 13px;
+        border-radius: 6px;
+        transition:  .25s ease;
+        font-family: Bold;
+    }
+    .services__right-CTA:hover{
+        color: #0d0d0d;
+        background: #fff;
+        border: 2px solid #F63854;
+        text-decoration: none;
+    }
 }
 /* end media queries */
